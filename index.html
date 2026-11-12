@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Privacy Notice · Kougar Baatarkhuu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+--paper:#f5f7fa; --panel:#ffffff; --ink:#141b2d; --muted:#566176; --rule:#d7dde7;
+--accent:#1f3a6b; --accent-soft:#e5ebf4;
+--display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+--body:"Source Serif 4", Georgia, "Times New Roman", serif;
+--mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+--paper:#10141d; --panel:#171d29; --ink:#e3e8f1; --muted:#97a2b6; --rule:#29324a;
+--accent:#9db7e6; --accent-soft:#1b2640; color-scheme:dark }}
+:root[data-theme="dark"]{
+--paper:#10141d; --panel:#171d29; --ink:#e3e8f1; --muted:#97a2b6; --rule:#29324a;
+--accent:#9db7e6; --accent-soft:#1b2640; color-scheme:dark }
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.65;
+padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:0}
+.wrap{max-width:1040px;margin:0 auto;padding-block:clamp(40px,7vw,88px) 64px;display:grid;grid-template-columns:1fr;gap:48px}
+@media (min-width:900px){.wrap{grid-template-columns:200px minmax(0,1fr);gap:64px}}
+header{grid-column:1/-1;display:grid;gap:28px;border-bottom:1px solid var(--rule);padding-bottom:36px}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2.4rem,6vw,3.9rem);line-height:1.02;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.lede{margin:0;max-width:34em;color:var(--muted);font-size:1.15rem}
+.record{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0;border:1px solid var(--rule);background:var(--panel);border-radius:4px}
+.record div{padding:14px 18px;border-right:1px solid var(--rule);min-width:0}
+.record div:last-child{border-right:0}
+@media (max-width:640px){.record div{border-right:0;border-bottom:1px solid var(--rule)}.record div:last-child{border-bottom:0}}
+.record dt{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.record dd{margin:0;font-family:var(--display);font-weight:500;font-size:1rem;overflow-wrap:anywhere}
+nav{display:none}
+@media (min-width:900px){nav{display:block}
+nav ol{position:sticky;top:calc(env(safe-area-inset-top,0px) + 32px);list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:c}
+nav li{counter-increment:c;font-family:var(--display);font-size:.92rem}
+nav a{color:var(--muted);text-decoration:none;display:flex;gap:10px}
+nav a::before{content:counter(c,decimal-leading-zero);font-family:var(--mono);font-size:.75rem;color:var(--accent);padding-top:2px}
+nav a:hover,nav a:focus-visible{color:var(--ink)}}
+main{min-width:0;max-width:40rem;display:grid;gap:52px}
+.short{background:var(--accent-soft);border-radius:4px;padding:22px 26px;margin:0}
+.short p{margin:0}
+.short strong{font-family:var(--display);color:var(--accent);display:block;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+section{display:grid;gap:14px;scroll-margin-top:24px}
+h2{font-family:var(--display);font-weight:700;font-size:1.45rem;line-height:1.2;letter-spacing:-.01em;margin:0;display:flex;gap:14px;align-items:baseline;text-wrap:balance}
+h2 .n{font-family:var(--mono);font-weight:500;font-size:.85rem;color:var(--accent);min-width:1.6em}
+section p{margin:0}
+ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
+li::marker{color:var(--accent)}
+.basis{border-left:2px solid var(--accent);padding-left:16px;font-style:normal}
+.basis b{font-weight:600}
+.cite{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.table{overflow-x:auto;border:1px solid var(--rule);border-radius:4px;background:var(--panel)}
+table{width:100%;border-collapse:collapse;font-size:.98rem}
+th,td{text-align:left;vertical-align:top;padding:12px 16px;border-bottom:1px solid var(--rule)}
+tr:last-child td{border-bottom:0}
+th{font-family:var(--mono);font-weight:500;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+td:first-child{font-family:var(--display);font-weight:500;width:42%}
+.rights li b{font-weight:600}
+.contact{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:16px 18px}
+.contact code{font-family:var(--mono);font-size:.95rem;overflow-wrap:anywhere}
+button{font-family:var(--display);font-weight:500;font-size:.85rem;background:var(--accent);color:var(--paper);border:0;border-radius:3px;padding:7px 14px;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+footer{grid-column:1/-1;border-top:1px solid var(--rule);padding-top:20px;font-family:var(--mono);font-size:.75rem;color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<p class="eyebrow">Privacy Notice</p>
+<h1>How I handle your information</h1>
+<p class="lede">What I hold about the local businesses and people I contact, why I hold it, and what you can ask me to do about it.</p>
+<dl class="record">
+<div><dt>Data controller</dt><dd>Kougar Baatarkhuu, sole trader</dd></div>
+<div><dt>Based in</dt><dd>Richmond upon Thames</dd></div>
+<div><dt>Contact</dt><dd>setside.digital@gmail.com</dd></div>
+<div><dt>Last updated</dt><dd>8 November 2026</dd></div>
+</dl>
+</header>
+<nav aria-label="Contents">
+<ol>
+<li><a href="#about">About me</a></li>
+<li><a href="#hold">Information I hold</a></li>
+<li><a href="#source">Where it comes from</a></li>
+<li><a href="#basis">Why I use it</a></li>
+<li><a href="#tools">Tools and providers</a></li>
+<li><a href="#retention">How long I keep it</a></li>
+<li><a href="#rights">Your rights</a></li>
+<li><a href="#concerns">Concerns</a></li>
+</ol>
+</nav>
+<main>
+<aside class="short">
+<strong>In short</strong>
+<p>I contact local businesses I believe I can genuinely help, using only publicly available business information. I never buy contact lists, never collect sensitive information, and will stop contacting you the moment you ask.</p>
+</aside>
+<section id="about">
+<h2><span class="n">01</span>About me</h2>
+<p>I help local businesses with websites, Google profiles, imagery, admin and simple automations. This notice explains what information I hold, why I hold it, how long I keep it and the rights you have over it.</p>
+</section>
+<section id="hold">
+<h2><span class="n">02</span>Information I hold</h2>
+<p>Before getting in touch, I may record:</p>
+<ul>
+<li>the business name, address, phone number, email address and website</li>
+<li>the owner's or manager's name, where it is publicly listed</li>
+<li>publicly visible information about the business, such as its Google profile, reviews, website and social media pages</li>
+<li>my own notes on where I believe I could help</li>
+<li>any correspondence between us, including a request not to be contacted again</li>
+</ul>
+<p>I do not collect special category (sensitive) information.</p>
+</section>
+<section id="source">
+<h2><span class="n">03</span>Where it comes from</h2>
+<p>Publicly available sources only: Google Maps and Google Business Profiles, the business's own website and social media pages, Companies House and local directories. If we have met or corresponded, some information will also come directly from you.</p>
+</section>
+<section id="basis">
+<h2><span class="n">04</span>Why I use it and my lawful basis</h2>
+<p>I use this information to contact your business with a relevant offer of help and to keep a record of our correspondence.</p>
+<p class="basis">My lawful basis is <b>legitimate interests</b>: I have a legitimate interest in offering my services to local businesses. I limit this to business contact information, make sure any contact is relevant to your business, and stop immediately if you ask. <span class="cite">UK GDPR Art. 6(1)(f)</span></p>
+<p>I only send unsolicited emails to limited companies and limited liability partnerships. Sole traders and other partnerships are contacted by letter or in person only.</p>
+</section>
+<section id="tools">
+<h2><span class="n">05</span>Tools and service providers</h2>
+<p>I store this information in my business email account and a private spreadsheet. I use AI tools to help research businesses and draft messages; every message is reviewed and sent by me personally, and no decisions about you are made by automated means. Some of these providers may process data outside the UK, in which case the safeguards required by UK data protection law apply.</p>
+</section>
+<section id="retention">
+<h2><span class="n">06</span>How long I keep it</h2>
+<div class="table">
+<table>
+<thead><tr><th scope="col">Situation</th><th scope="col">Retention</th></tr></thead>
+<tbody>
+<tr><td>We don't go on to work together</td><td>Up to 12 months from my last contact, then deleted</td></tr>
+<tr><td>You ask me not to contact you again</td><td>Business name and contact details only, kept on a do-not-contact list so you are not contacted again by mistake</td></tr>
+<tr><td>You become a client</td><td>For the duration of our work together, then as long as tax and legal requirements oblige</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="rights">
+<h2><span class="n">07</span>Your rights</h2>
+<p>You have the right to:</p>
+<ul class="rights">
+<li><b>object to direct marketing:</b> ask me to stop contacting you at any time, for any reason, and I will stop immediately</li>
+<li>access the information I hold about you and receive a copy</li>
+<li>have inaccurate information corrected</li>
+<li>have your information deleted</li>
+<li>restrict or object to how I use your information</li>
+</ul>
+<p>To exercise any of these rights, email me or reply to any message from me. I will respond within one month.</p>
+<div class="contact">
+<code id="email">setside.digital@gmail.com</code>
+<button type="button" id="copy">Copy email</button>
+</div>
+</section>
+<section id="concerns">
+<h2><span class="n">08</span>Concerns and complaints</h2>
+<p>If you are unhappy with how I have handled your information, please contact me first so I can put it right.</p>
+</section>
+</main>
+<footer>
+<span>Kougar Baatarkhuu · Richmond upon Thames</span>
+<span>Updated 8 Nov 2026</span>
+</footer>
+</div>
+<script>
+document.getElementById('copy').addEventListener('click', function(){
+var b=this, t=document.getElementById('email').textContent;
+function done(){b.textContent='Copied'; setTimeout(function(){b.textContent='Copy email'},1600)}
+function fallback(){var r=document.createRange(); r.selectNodeContents(document.getElementById('email')); var s=getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent='Selected, press Ctrl+C'}
+try{ navigator.clipboard.writeText(t).then(done, fallback) }catch(e){ fallback() }
+});
+</script>
+</body>
+</html>
